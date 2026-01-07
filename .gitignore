@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# 데이터 및 가중치
+data/raw/
+data/processed/
+weights/
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# 결과
+results/
+*.jpg
+*.png
+*.mp4
+*.avi
+
+# 로그
+*.log
+logs/
+wandb/
+runs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 설정 (민감 정보 포함 가능)
+.env
+*.key
+
+# 임시 파일
+*.tmp
+*.temp
+.cache/
+
