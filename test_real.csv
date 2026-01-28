@@ -1,0 +1,17 @@
+image_path,has_any_det,has_phys_det,num_boxes,yolo_conf_max,yolo_phys_conf_max,stn_top1_class,stn_top1_prob
+test_real\1.jpg,0,0,0,0.0,0.0,-1,0.0
+test_real\10.jpg,1,0,1,0.5225997567176819,0.0,1,0.7756141424179077
+test_real\11.jpg,0,0,0,0.0,0.0,-1,0.0
+test_real\12.jpg,0,0,0,0.0,0.0,-1,0.0
+test_real\13.jpg,0,0,0,0.0,0.0,-1,0.0
+test_real\14.jpg,0,0,0,0.0,0.0,-1,0.0
+test_real\15.jpg,1,1,1,0.2617596685886383,0.2617596685886383,1,0.6608589291572571
+test_real\16.jpg,0,0,0,0.0,0.0,-1,0.0
+test_real\2.jpg,0,0,0,0.0,0.0,-1,0.0
+test_real\3.jpg,0,0,0,0.0,0.0,-1,0.0
+test_real\4.jpg,1,0,1,0.41387560963630676,0.0,1,0.76568603515625
+test_real\5.jpg,0,0,0,0.0,0.0,-1,0.0
+test_real\6.jpg,0,0,0,0.0,0.0,-1,0.0
+test_real\7.jpg,0,0,0,0.0,0.0,-1,0.0
+test_real\8.jpg,0,0,0,0.0,0.0,-1,0.0
+test_real\9.jpg,0,0,0,0.0,0.0,-1,0.0

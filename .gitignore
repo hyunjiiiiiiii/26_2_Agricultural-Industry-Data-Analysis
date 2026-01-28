@@ -35,6 +35,7 @@ weights/
 *.pth
 *.onnx
 *.engine
+dataset/
 
 # 결과
 results/
@@ -69,3 +70,8 @@ Thumbs.db
 *.temp
 .cache/
 
+# outputss
+outputs/
+runs_cls/
+
+s

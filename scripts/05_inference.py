@@ -18,15 +18,16 @@ def inference_image(model, image_path, output_dir, config):
     print(f"이미지 추론: {image_path}")
     
     results = model.predict(
-        source=str(image_path),
-        imgsz=config['inference']['imgsz'],
-        conf=config['inference']['conf_threshold'],
-        iou=config['inference']['iou_threshold'],
-        max_det=config['inference']['max_det'],
-        save=True,
-        project=output_dir,
-        name="inference",
-        exist_ok=True,
+    source=str(image_path),
+    imgsz=config['inference']['imgsz'],
+    conf=config['inference']['conf_threshold'],
+    iou=config['inference']['iou_threshold'],
+    max_det=config['inference']['max_det'],
+    save=True,
+    save_txt=True, 
+    project=output_dir,
+    name="inference",
+    exist_ok=True,
     )
     
     return results
